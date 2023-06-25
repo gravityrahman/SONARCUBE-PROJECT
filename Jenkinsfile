@@ -14,7 +14,7 @@ pipeline {
             }
         
             }
-        stage('Code Quality Scan') {
+        stage('Code Qualty Scan') {
 
            steps {
                   withSonarQubeEnv('sonar_scanner') {
